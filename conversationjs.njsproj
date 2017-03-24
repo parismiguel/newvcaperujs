@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2cc8491f-2cc7-4b7b-86b3-004cb6a4b552}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>server.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include=".env" />
+    <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
+    <Content Include="package.json" />
+    <Content Include="CONTRIBUTING.md" />
+    <Content Include="public\css\bootstrap.css" />
+    <Content Include="public\css\bootstrap.min.css" />
+    <Content Include="public\css\chatbot.css" />
+    <Content Include="public\css\compass-homestyle.css" />
+    <Content Include="public\css\mdb.min.css" />
+    <Content Include="public\css\site.css" />
+    <Content Include="public\fonts\roboto\Roboto-Bold.eot" />
+    <Content Include="public\fonts\roboto\Roboto-Bold.ttf" />
+    <Content Include="public\fonts\roboto\Roboto-Bold.woff" />
+    <Content Include="public\fonts\roboto\Roboto-Bold.woff2" />
+    <Content Include="public\fonts\roboto\Roboto-Light.eot" />
+    <Content Include="public\fonts\roboto\Roboto-Light.ttf" />
+    <Content Include="public\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="public\fonts\roboto\Roboto-Light.woff2" />
+    <Content Include="public\fonts\roboto\Roboto-Medium.eot" />
+    <Content Include="public\fonts\roboto\Roboto-Medium.ttf" />
+    <Content Include="public\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="public\fonts\roboto\Roboto-Medium.woff2" />
+    <Content Include="public\fonts\roboto\Roboto-Regular.eot" />
+    <Content Include="public\fonts\roboto\Roboto-Regular.ttf" />
+    <Content Include="public\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="public\fonts\roboto\Roboto-Regular.woff2" />
+    <Content Include="public\fonts\roboto\Roboto-Thin.eot" />
+    <Content Include="public\fonts\roboto\Roboto-Thin.ttf" />
+    <Content Include="public\fonts\roboto\Roboto-Thin.woff" />
+    <Content Include="public\fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="public\img\Analysis.png" />
+    <Content Include="public\img\banner\compass-hp-sprite.png" />
+    <Content Include="public\img\banner\IBMAnalytics.png" />
+    <Content Include="public\img\banner\IBMCloud.jpg" />
+    <Content Include="public\img\banner\IBMIoT.jpg" />
+    <Content Include="public\img\banner\MaximoAsset.jpg" />
+    <Content Include="public\img\banner\VCAonDemand.jpg" />
+    <Content Include="public\img\cards\IBMAnalytics-1800x1200.jpg" />
+    <Content Include="public\img\cards\IBMCloud-1800x1200.jpg" />
+    <Content Include="public\img\cards\IBMIoT-1800x1200.jpg" />
+    <Content Include="public\img\cards\MaximoAsset-1800x1200.jpg" />
+    <Content Include="public\img\cards\VCAonDemand-1800x1200.jpg" />
+    <Content Include="public\img\docs\VCA - IBM Asset Management Brochure.pdf" />
+    <Content Include="public\img\docs\VCA - IBM Cloud Services Brochure.pdf" />
+    <Content Include="public\img\docs\VCA - IBM IoT Brochure.pdf" />
+    <Content Include="public\img\docs\VCA - IBM Maximo Asset Management.pdf" />
+    <Content Include="public\img\docs\VCA - IBM Watson Analytics Brochure.pdf" />
+    <Content Include="public\img\EnfoqueComponentes.png" />
+    <Content Include="public\img\Focus.png" />
+    <Content Include="public\img\icons\01.png" />
+    <Content Include="public\img\icons\01_iaas.png" />
+    <Content Include="public\img\icons\01_paas.png" />
+    <Content Include="public\img\icons\01_saas.png" />
+    <Content Include="public\img\icons\02.png" />
+    <Content Include="public\img\icons\02_cientificos_datos.png" />
+    <Content Include="public\img\icons\02_desarrolladores.png" />
+    <Content Include="public\img\icons\02_ingenieros_datos.png" />
+    <Content Include="public\img\icons\02_prof_negocios.png" />
+    <Content Include="public\img\icons\03.png" />
+    <Content Include="public\img\icons\03_cognos_analytics.png" />
+    <Content Include="public\img\icons\03_ibm_biginsights.png" />
+    <Content Include="public\img\icons\03_ibm_db2.png" />
+    <Content Include="public\img\icons\03_ibm_watson.png" />
+    <Content Include="public\img\icons\03_spss.png" />
+    <Content Include="public\img\icons\04.png" />
+    <Content Include="public\img\icons\04_ibm_analytics.png" />
+    <Content Include="public\img\icons\04_ibm_cloud.png" />
+    <Content Include="public\img\icons\04_ibm_iot.png" />
+    <Content Include="public\img\icons\04_ibm_maximo.png" />
+    <Content Include="public\img\icons\04_vca_services.png" />
+    <Content Include="public\img\icons\05.png" />
+    <Content Include="public\img\icons\06.png" />
+    <Content Include="public\img\icons\07.png" />
+    <Content Include="public\img\IoT.png" />
+    <Content Include="public\img\lightbox\default-skin.png" />
+    <Content Include="public\img\lightbox\default-skin.svg" />
+    <Content Include="public\img\lightbox\preloader.gif" />
+    <Content Include="public\img\lightbox\Thumbs.db" />
+    <Content Include="public\img\logo-vca-azul.png" />
+    <Content Include="public\img\newapp-icon.png" />
+    <Content Include="public\img\overlays\01.png" />
+    <Content Include="public\img\overlays\02.png" />
+    <Content Include="public\img\overlays\03.png" />
+    <Content Include="public\img\overlays\04.png" />
+    <Content Include="public\img\overlays\05.png" />
+    <Content Include="public\img\overlays\06.png" />
+    <Content Include="public\img\overlays\07.png" />
+    <Content Include="public\img\overlays\08.png" />
+    <Content Include="public\img\overlays\09.png" />
+    <Content Include="public\img\overlays\Thumbs.db" />
+    <Content Include="public\img\pages\Analytics-Header-1400x600.jpg" />
+    <Content Include="public\img\pages\Analytics-Header-1400x600v2.jpg" />
+    <Content Include="public\img\pages\Analytics-Header.png" />
+    <Content Include="public\img\pages\Analytics-Logo-Transparent.png" />
+    <Content Include="public\img\pages\Analytics-Logo.jpg" />
+    <Content Include="public\img\pages\analytics.jpg" />
+    <Content Include="public\img\pages\Analytics1.jpg" />
+    <Content Include="public\img\pages\Analytics10.jpg" />
+    <Content Include="public\img\pages\Analytics11.jpg" />
+    <Content Include="public\img\pages\Analytics2.jpg" />
+    <Content Include="public\img\pages\Analytics3.jpg" />
+    <Content Include="public\img\pages\Analytics4.jpg" />
+    <Content Include="public\img\pages\Analytics5.jpg" />
+    <Content Include="public\img\pages\Analytics6.jpg" />
+    <Content Include="public\img\pages\Analytics7.jpg" />
+    <Content Include="public\img\pages\Analytics8.jpg" />
+    <Content Include="public\img\pages\Analytics9.jpg" />
+    <Content Include="public\img\pages\Asset-Header.jpg" />
+    <Content Include="public\img\pages\asset-mgmnt.png" />
+    <Content Include="public\img\pages\Asset1.jpg" />
+    <Content Include="public\img\pages\Asset2.jpg" />
+    <Content Include="public\img\pages\Asset3.jpg" />
+    <Content Include="public\img\pages\Asset4.jpg" />
+    <Content Include="public\img\pages\Asset5.jpg" />
+    <Content Include="public\img\pages\AssetMgmt-1200x600.jpg" />
+    <Content Include="public\img\pages\bg-shape-1.svg" />
+    <Content Include="public\img\pages\Cloud-Header-1200x600.jpg" />
+    <Content Include="public\img\pages\Cloud-Header-1200x600v2.jpg" />
+    <Content Include="public\img\pages\Cloud-Header.jpg" />
+    <Content Include="public\img\pages\Cloud1.jpg" />
+    <Content Include="public\img\pages\Cloud2.png" />
+    <Content Include="public\img\pages\Cloud3-802x604.jpg" />
+    <Content Include="public\img\pages\Cloud3.png" />
+    <Content Include="public\img\pages\EnterpriseAssetManagement.jpg" />
+    <Content Include="public\img\pages\Iaas.png" />
+    <Content Include="public\img\pages\IbmCloudServices.jpg" />
+    <Content Include="public\img\pages\IBMcognos.png" />
+    <Content Include="public\img\pages\IBMdesk.png" />
+    <Content Include="public\img\pages\IBMmaximo.png" />
+    <Content Include="public\img\pages\IBMwatson.png" />
+    <Content Include="public\img\pages\ibm_business.png" />
+    <Content Include="public\img\pages\IBM_Logo_RGB_225x158.png" />
+    <Content Include="public\img\pages\info_03.png" />
+    <Content Include="public\img\pages\info_enfoque.png" />
+    <Content Include="public\img\pages\info_soporte.png" />
+    <Content Include="public\img\pages\IoT-Logo.png" />
+    <Content Include="public\img\pages\IoT-SubHeader.jpg" />
+    <Content Include="public\img\pages\IoT0.jpg" />
+    <Content Include="public\img\pages\IoT1.jpg" />
+    <Content Include="public\img\pages\maximo1.png" />
+    <Content Include="public\img\pages\maximo2.jpg" />
+    <Content Include="public\img\pages\maximo3.jpg" />
+    <Content Include="public\img\pages\Paas.png" />
+    <Content Include="public\img\pages\Saas.png" />
+    <Content Include="public\img\pages\saas1.jpg" />
+    <Content Include="public\img\pages\saas2.jpg" />
+    <Content Include="public\img\pages\saas3.jpg" />
+    <Content Include="public\img\pages\saas4.png" />
+    <Content Include="public\img\pages\Time to listen to machines.pdf" />
+    <Content Include="public\img\pages\Understanding the impact and value of enterprise asset management.pdf" />
+    <Content Include="public\img\paris2.jpg" />
+    <Content Include="public\img\transform_2000.jpg" />
+    <Content Include="public\index - Copy.html" />
+    <Content Include="README.md" />
+    <Compile Include="app.js" />
+    <Compile Include="casper-runner.js" />
+    <Compile Include="public\js\bootstrap.min.js" />
+    <Compile Include="public\js\compass-homescript.js" />
+    <Compile Include="public\js\ibmscript.js" />
+    <Compile Include="public\js\jquery-3.1.1.js" />
+    <Compile Include="public\js\jquery.validate.js" />
+    <Compile Include="public\js\jquery.validate.min.js" />
+    <Compile Include="public\js\jquery.validate.unobtrusive.min.js" />
+    <Compile Include="public\js\mdb.min.js" />
+    <Compile Include="public\js\modernizr-2.8.3.js" />
+    <Compile Include="public\js\respond.js" />
+    <Compile Include="public\js\scripts.js" />
+    <Compile Include="public\js\sweetalert.min.js" />
+    <Compile Include="public\js\tether.js" />
+    <Compile Include="public\js\tether.min.js" />
+    <Compile Include="public\js\toastr.js" />
+    <Compile Include="server.js" />
+    <Content Include="public\index.html" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\conversation.svg" />
+    <Content Include="readme_images\application_list.png" />
+    <Content Include="readme_images\app_create.PNG" />
+    <Content Include="readme_images\bluemix.png" />
+    <Content Include="readme_images\compute.PNG" />
+    <Content Include="readme_images\conversation_service.png" />
+    <Content Include="readme_images\copy_icon.png" />
+    <Content Include="readme_images\createproject.PNG" />
+    <Content Include="readme_images\credentials.PNG" />
+    <Content Include="readme_images\Deploy on Bluemix - simple app.png" />
+    <Content Include="readme_images\deploy.PNG" />
+    <Content Include="readme_images\details.PNG" />
+    <Content Include="readme_images\env.PNG" />
+    <Content Include="readme_images\filter.PNG" />
+    <Content Include="readme_images\filter1.PNG" />
+    <Content Include="readme_images\importGA.PNG" />
+    <Content Include="readme_images\import_intents.png" />
+    <Content Include="readme_images\launch_tool_button.png" />
+    <Content Include="readme_images\local.png" />
+    <Content Include="readme_images\logs.PNG" />
+    <Content Include="readme_images\logs1.PNG" />
+    <Content Include="readme_images\restart_icon.png" />
+    <Content Include="readme_images\services.png" />
+    <Content Include="readme_images\viewyourapp.PNG" />
+    <Content Include="readme_images\workspaceid.PNG" />
+    <Content Include="readme_images\workspace_details.png" />
+    <Content Include="readme_images\demo.gif" />
+    <Content Include="training\car_workspace.json" />
+    <Content Include="public\css\app.css" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\fonts\ibm-glyph.svg" />
+    <Content Include="public\fonts\ibm-icons.svg" />
+    <Content Include="public\img\Chat Button.png" />
+    <Content Include="public\img\Code Button.png" />
+    <Content Include="public\img\marker_image.png" />
+    <Compile Include="public\js\api.js" />
+    <Compile Include="public\js\common.js" />
+    <Compile Include="public\js\conversation.js" />
+    <Compile Include="public\js\global.js" />
+    <Compile Include="public\js\payload.js" />
+    <Compile Include="test\integration\test.mainpage.js" />
+    <Compile Include="test\unit\test.express.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="conversationjs" />
+    <Folder Include="public" />
+    <Folder Include="public\css" />
+    <Folder Include="public\fonts" />
+    <Folder Include="public\fonts\bold" />
+    <Folder Include="public\fonts\bold-italic" />
+    <Folder Include="public\fonts\light" />
+    <Folder Include="public\fonts\light-italic" />
+    <Folder Include="public\fonts\medium" />
+    <Folder Include="public\fonts\medium-italic" />
+    <Folder Include="public\fonts\roboto\" />
+    <Folder Include="public\fonts\roman" />
+    <Folder Include="public\fonts\roman-italic" />
+    <Folder Include="public\img" />
+    <Folder Include="public\img\banner\" />
+    <Folder Include="public\img\cards\" />
+    <Folder Include="public\img\docs\" />
+    <Folder Include="public\img\icons\" />
+    <Folder Include="public\img\lightbox\" />
+    <Folder Include="public\img\overlays\" />
+    <Folder Include="public\img\pages\" />
+    <Folder Include="public\js" />
+    <Folder Include="public\views\" />
+    <Folder Include="readme_images" />
+    <Folder Include="test" />
+    <Folder Include="test\integration" />
+    <Folder Include="test\unit" />
+    <Folder Include="training" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
