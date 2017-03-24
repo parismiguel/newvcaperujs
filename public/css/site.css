@@ -1,0 +1,1816 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+
+div.button-header {
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+div.cmps-bttns.button-header div a {
+    background-color: #1f4f82;
+    color: white;
+}
+
+
+div.button-header-2, 
+div.button-header-3 {
+    margin: 0;
+}
+
+div.cmps-bttns.button-header-2 div a, 
+div.cmps-bttns.button-header-3 div a {
+    background-color: #1f4f82 !important;
+    color: white !important;
+}
+
+
+div.cmps-bttns.button-header-2 div a:hover {
+    color: #1f4f82 !important;
+    background-color: white !important;
+}
+
+div.cmps-bttns.button-header-3 div a:hover {
+    color: #1f4f82 !important;
+    background-color: rgba(60, 120, 190, 0.14902) !important;
+}
+
+div.cmps-bttns.button-header-2 div a:hover:after, 
+div.cmps-bttns.button-header-3 div a:hover:after {
+    /*background-position: 0 31.25%;*/
+    background-position: 0 25.25%;
+}
+
+div.cmps-bttns.button-header-2 div a:after,
+div.cmps-bttns.button-header-3 div a:after {
+    background-position: 0 31.25%;
+    /*background-position: 0 25.25%;*/
+}
+
+
+div.overlay-all {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+p.lead {
+    font-weight: 300;
+}
+
+div.hp07imgslide img {
+    /*max-width: none;*/
+    height: 38rem;
+
+    max-width: none;
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+div.hp07v0 {
+    margin-top: -4.5rem;
+}
+
+div.hp07w2 {
+    right: 0;
+    width: 35rem;
+    height: 38rem;
+}
+
+div.hp07w1 {
+    position: initial;
+    margin: 0;
+    height: 38rem;
+}
+
+div.hp07w4 {
+    height: 38rem;
+}
+
+div.hp07imgslide {
+    height: 38rem;
+}
+
+
+.pad-center {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.section {
+    margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.container-fluid {
+    margin-top: 1.4rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section .section-heading, section .section-heading {
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+p.box-paas {
+    background-color: #7FD9CF;
+    color: black !important;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 58%;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    margin-left: 15.5rem !important;
+}
+
+div.border-paas {
+    margin-top: 0.4rem;
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    margin-bottom: 0 !important;
+    padding-top: 0.4rem;
+}
+
+.card-cascade .view, .card-cascade-2 .view,
+.card-overlay, .colorful-select .dropdown-content li a:hover, .colorful-select .dropdown-content li span:hover, .comments-list img, .dropdown .dropdown-menu .dropdown-item:hover, .nav-tabs, .reply-form img, .section .author-box, .section .jumbotron, .testimonial-carousel .testimonial .avatar img, .z-depth-2 {
+    box-shadow: none;
+}
+
+    .card .card-circle ul,
+    .card-overlay ul, .flex-center ul, .section.team-section .avatar ul, .testimonial-carousel .testimonial .avatar ul {
+        text-align: left;
+    }
+
+h4.card-title {
+    padding-left: .35rem;
+    padding-right: .35rem;
+    color: #1f4f82;
+}
+
+section.top-header {
+    margin-top: -1rem;
+    margin-bottom: -4rem;
+}
+
+.overlay-header {
+    height: 37.8rem;
+    margin: -5.5rem -4.2rem 2rem -4.2rem !important;
+    padding: 0 !important;
+}
+
+.overlay-subheader {
+    height: 25rem;
+    margin: -2.8rem -4.2rem 2rem -4.2rem !important;
+    padding: 0 !important;
+}
+
+.overlay-banner {
+    height: 15rem;
+    margin-left: -4.2rem;
+    margin-right: -4.2rem;
+}
+
+.card-block h1 {
+    margin-left: 15%;
+}
+
+.col-block {
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: pulse;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 17rem;
+}
+
+
+.section img {
+    box-shadow: none;
+}
+
+.section .section-description {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Oxygen Mono', monospace;
+    font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    /*font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;*/
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: #102043;
+}
+
+.top-nav-collapse {
+    background-color: #2E2E2E;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2E2E2E;
+    }
+}
+/*Intro*/
+
+.view {
+    /*background: url("http://mdbootstrap.com/img/regular/people/img%20(58).jpg")no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+}
+
+.description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+
+    #app-mockup {
+        max-height: 400px;
+    }
+}
+/*Footer*/
+
+.page-footer {
+    background-color:;
+}
+
+.list-footer li:before {
+    display: block;
+    font-family: 'FontAwesome';
+    content: '\f067';
+    float: left;
+    margin-right: 0.5em;
+}
+
+footer.page-footer {
+    background-color: #102043 !important;
+}
+
+.md-form label.error {
+    top: 2rem;
+    color: chocolate;
+    font-size: .7rem;
+}
+
+.back-to-top {
+    background: transparent;
+    border: 1px solid #d3d3d3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color: rgba(16, 32, 67, 0.6) !important;
+}
+
+.back-to-top i {
+    font-size: 30px;
+    color: white;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+
+/*Cards VCA*/
+
+.card-wrapper {
+    margin: .5rem .2rem 1rem;
+    height: 420px;
+}
+
+.card-wrapper .card-up img {
+    min-width: 200px;
+    height: 13rem !important;
+    width: 100%;
+}
+
+.card-wrapper .card-up {
+    height: auto;
+}
+
+.card-wrapper .back {
+    padding-top: 60% !important;
+    padding-bottom: 40% !important;
+}
+
+.card-block {
+    padding: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.card-wrapper .face h4 {
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+div.card-contact {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.card-contact .md-form .prefix {
+    font-size: 1.5rem;
+}
+
+    .card-contact .md-form .prefix ~ label {
+        margin-left: 2rem;
+    }
+
+.card-contact .md-form label {
+    color: white;
+    top: .2rem;
+    font-size: .8rem;
+}
+
+.card-contact .card-block {
+    padding: 0;
+}
+
+.card-contact .md-form,
+.card-contact .md-form .btn {
+    margin-bottom: 1.8rem;
+}
+
+    .card-contact .md-form .prefix ~ input,
+    .card-contact .md-form .prefix ~ textarea {
+        margin-left: 2rem;
+    }
+
+.card-contact textarea.md-textarea {
+    padding: 0;
+    min-height: 2.5rem;
+    font-size: small;
+    color: white !important;
+    height: auto;
+}
+
+.card-contact input {
+    font-size: small;
+    color: white !important;
+    height: auto;
+}
+
+.card-contact .md-form label.active {
+    transform: translateY(-80%);
+    color: yellow;
+}
+
+.card-contact .md-form label.error {
+    top: 2.3rem !important;
+    color: chocolate !important;
+    font-size: .7rem !important;
+}
+
+.card-contact input[type=text] + label:after,
+.card-contact textarea.md-textarea + label:after {
+    top: 3rem;
+    right: -10rem;
+    position: relative;
+}
+
+.cta-list-card {
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+    .cta-list-card li {
+        margin-left: .2rem;
+        margin-bottom: .65em;
+    }
+
+        .cta-list-card li:before {
+            display: block;
+            width: .9em;
+            padding-top: .9em;
+            background: url(../img/banner/compass-hp-sprite.png) 100% 60.4% no-repeat;
+            background-size: 3.667em 62.333em;
+            content: ' ';
+            float: left;
+            /*margin: .05em 0 0 -1.2em;*/
+            margin-right: .5rem;
+        }
+
+a.rotate-btn {
+    font-size: medium;
+    /*color: #0275d8 !important;*/
+    color: brown !important;
+}
+
+.card-wrapper .fa-repeat, .card-wrapper .fa-undo {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+ul.ctalink-card {
+    padding: 10px;
+}
+
+    ul.ctalink-card li {
+        margin-bottom: 10px;
+    }
+
+
+
+.mdb-skin .navbar {
+    /*background-color: #102043;*/
+    background-color: rgba(16, 32, 67, 0.6);
+}
+
+.mdb-skin .top-nav-collapse {
+    background-color: rgba(16, 32, 67, 0.6);
+}
+
+.double-nav .button-collapse {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: white;
+}
+
+
+@media (max-width: 2440px) {
+    .fixed-sn .double-nav, .fixed-sn footer, .fixed-sn main {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 2440px) {
+    .navbar .button-collapse {
+        display: block;
+        position: relative;
+        font-size: 1.4rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+.smallmenu {
+    font-size: 75%;
+    font-weight: normal;
+    margin-left: 3.5rem;
+}
+
+.mdb-gradient, .mdb-skin .side-nav {
+    background: #294a65 !important;
+    background: -moz-linear-gradient(-45deg,#294a65 0,#294a65 100%);
+    background: -webkit-linear-gradient(-45deg,#294a65 0,#294a65 100%);
+    background: linear-gradient(135deg,#294a65 0,# 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#294a65', GradientType=1 );
+}
+
+    .mdb-skin .side-nav .logo-wrapper {
+        background: none;
+        background-size: cover;
+    }
+
+.dropdown .dropdown-menu.dd-right a {
+    color: #3f729b;
+}
+
+.page-list li:before {
+    display: block;
+    width: .9em;
+    padding-right: 2em;
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    float: left;
+    margin: .05em 0 0 -1.2em;
+    color: black;
+}
+
+.page-list.nopad li:before {
+    padding-right: 0;
+}
+
+.page-list.nopad li {
+    font-weight: 300;
+}
+
+img.page-img {
+    width: 25rem;
+    border-radius: 15%;
+    margin-left: 20%;
+    margin-right: 10%;
+    text-align: center;
+    height: 20rem;
+}
+
+.side-nav {
+    width: 350px;
+}
+
+
+/**** Static Cards *****/
+
+#iotsrv .well {
+    padding-top: 84px;
+    padding-bottom: 108px;
+    margin-bottom: 0;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#iotsrv .bg-color1 {
+    background: #f9f9f9;
+}
+
+#iotsrv .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#iotsrv section {
+    display: block;
+}
+
+#iotsrv .container,
+#iotsrv .container-fluid {
+    /*width: 1170px;*/
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#iotsrv .center {
+    text-align: center;
+}
+
+#iotsrv h2 {
+    font: 700 48px/55px "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    color: #505050;
+}
+
+#iotsrv .product-list li:nth-child(odd) {
+    /*padding-bottom: 47px;*/
+    /*height: 580px;*/
+    height: 30rem;
+}
+
+#iotsrv .product-list li:nth-child(even) {
+    /*padding-bottom: 47px;*/
+    /*height: 580px;*/
+    height: 30rem;
+}
+
+#iotsrv .container .grid_4 {
+    /*width: 370px;*/
+    width: 30%;
+}
+
+#iotsrv .container [class*="grid_"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+
+#iotsrv .container .row {
+    margin-left: -30px;
+}
+
+* + #iotsrv .row {
+    margin-top: 61px;
+}
+
+#iotsrv .product-list li {
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+}
+
+#iotsrv .container:after,
+#iotsrv .container-fluid:after,
+#iotsrv .row:after {
+    clear: both;
+}
+
+#iotsrv .container:before,
+#iotsrv .container-fluid:before,
+#iotsrv .row:before,
+#iotsrv .container:after,
+#iotsrv .container-fluid:after,
+#iotsrv .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+/*#iotsrv .container:after,
+#iotsrv .container-fluid:after,
+#iotsrv .row:after {
+    clear: both;
+}*/
+
+
+#iotsrv img {
+    height: 12rem;
+    width: 100%;
+}
+
+#iotsrv html,
+#iotsrv body,
+#iotsrv div,
+#iotsrv span,
+#iotsrv object,
+#iotsrv iframe,
+/*#iotsrv h1,*/
+#iotsrv h2,
+#iotsrv h3,
+#iotsrv h4,
+#iotsrv h5,
+#iotsrv h6,
+#iotsrv p,
+#iotsrv blockquote,
+#iotsrv pre,
+#iotsrv a,
+#iotsrv abbr,
+#iotsrv acronym,
+#iotsrv address,
+#iotsrv cite,
+#iotsrv code, del, dfn, em,
+#iotsrv img, ins, kbd, q, s, samp, small,
+#iotsrv strong, sub, sup, var, b, u,
+#iotsrv i,
+#iotsrv center, dl, dt, dd, ol,
+#iotsrv ul,
+#iotsrv li,
+#iotsrv fieldset,
+#iotsrv form,
+#iotsrv label,
+#iotsrv legend,
+#iotsrv table,
+#iotsrv caption,
+#iotsrv tbody, tfoot, thead, tr, th, td,
+/*#iotsrv article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,*/
+#iotsrv section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+}
+
+#iotsrv .product-list li h4,
+#iotsrv .product-list li p {
+    padding: 0 1rem;
+}
+
+#iotsrv img + h4 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#iotsrv h4 {
+    font: 300 18px/20px 'Roboto', sans-serif;
+    color: #454545;
+}
+
+#iotsrv .product-list li p {
+    /*font-size: 14px;*/
+    line-height: 23px;
+    color: #9e9e9e;
+}
+
+
+#iotsrv h4 + * {
+    margin-top: 27px;
+}
+
+
+/***** Button Link IBM ****/
+
+.ibm-widget-processed .ibm-card__bottom {
+    position: absolute;
+    width: 100%;
+}
+
+.ibm-card__bottom {
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.ibm-textcolor-default {
+    color: #323232;
+}
+
+
+.ibm-icon-nolink {
+    position: relative;
+    padding-left: 2.1em !important;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding: 0 0 15px;
+    margin-bottom: 4rem;
+    /*margin-left: 15%;*/
+    margin-right: 15%;
+}
+
+ul.card-body {
+    /*margin-left: .7rem;*/
+    margin-left: 1.4rem;
+    margin-right: .7rem;
+    text-align: left;
+}
+
+    ul.card-body li {
+        list-style-position: inside;
+        text-indent: -1em;
+        padding-left: 1em;
+    }
+
+ul.card-body-2 {
+    line-height: 2.5rem;
+    margin-top: 1rem;
+}
+
+    ul.card-body-2 li {
+        list-style-position: inside;
+        text-indent: -1em;
+        padding-left: 1em;
+    }
+
+li a.card-link {
+    font-size: small;
+    padding-left: 0 !important;
+    margin: 0;
+}
+
+
+.ibm-linkcolor-default {
+    color: #3b6caa;
+}
+
+.ibm-icon-nolink span::before,
+.ibm-icon-nolink span::before,
+.ibm-icon-after::after,
+#ibm-parent-link a::before,
+#ibm-navigation-trail li::after,
+.ibm-bullet::before,
+.ibm-close::before, #ibm-home a:before,
+.ibm-show-hide > h2 a:before,
+.ibm-sitenav-menu-list > ul > li.ibm-haschildlist > button:before, .ibm-sitenav-menu-list > ul > li.ibm-haschildlist > span:before, .ibm-sitenav-menu-list > ul > li.ibm-haschildlist > a:before, .ibm-step-indicator .ibm-tabs li:after, ul.ibm-twisty > li a.ibm-twisty-trigger:before {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    top: .2rem;
+    padding-right: .5rem;
+    position: relative;
+    /*speak: none;*/
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    content: "\f138";
+}
+
+/**** Statistics ****/
+
+html .ibm-band[class*="iot-override"] {
+    box-sizing: border-box;
+}
+
+.ibm-band.iot-override {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.ibm-background-blue-70 {
+    background-color: #264A60 !important;
+}
+
+.ibm-position-relative {
+    position: relative !important;
+}
+
+.ibm-height-100 {
+    height: 100% !important;
+}
+
+.ibm-width-100 {
+    width: 100% !important;
+}
+
+.ibm-position-absolute {
+    position: absolute !important;
+}
+
+.half-band {
+    max-width: 2000px;
+    pointer-events: none;
+}
+
+.ibm-alternate-background {
+    color: #fff;
+}
+
+
+.ibm-width-50 {
+    width: 50% !important;
+}
+
+.ibm-float-right {
+    float: right !important;
+}
+
+.ibm-padding-bottom-0 {
+    padding-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 1479px) and (min-width: 1240px) {
+    .ibm-columns, #ibm-footer .ibm-columns,
+    #ibm-footer-contact .ibm-columns, #ibm-footer-module .ibm-columns,
+    #ibm-megamenu-sections .ibm-columns,
+    #ibm-related-content .ibm-columns {
+        width: 1200px;
+    }
+
+    .ibm-columns {
+        clear: both;
+        margin: 0 auto;
+        width: 980px;
+        padding: 0 10px 10px;
+    }
+}
+
+html [class*=ibm-col-][class*="iot-override"], html .ibm-band[class*="iot-override"] {
+    box-sizing: border-box;
+}
+
+[class*=ibm-col-].iot-override, .ibm-band.iot-override {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+[class*=ibm-col-].iot-override, [class*=ibm-col-].iot-override-alternate, .ibm-band.iot-override, .ibm-band.iot-override-alternate {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ibm-h3 {
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+}
+
+.ibm-textcolor-teal-30 {
+    color: #41D6C3 !important;
+}
+
+.ibm-display-flex {
+    display: flex;
+}
+
+.ibm-line-height-auto, .ibm-line-height-auto * {
+    line-height: 90% !important;
+}
+
+.ibm-float-left {
+    float: left !important;
+}
+
+.mega-size {
+    font-size: 4.125rem;
+}
+
+.ibm-line-height-auto * {
+    line-height: 90% !important;
+}
+
+.ibm-large.ibm-h1 {
+    font-size: 3.75rem;
+}
+
+p.ibm-item-note.ibm-padding-top-1 {
+    font-size: small;
+}
+
+@media (min-width: 992px) {
+    .mb-r {
+        padding-top: 2rem;
+    }
+}
+
+/******* IBM Background *******/
+
+.ibm-cci_particles {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.ibm-background-blue-core {
+    background-color: #4178be;
+}
+
+#particles-js {
+    background-color: #4178be;
+    background-image: url();
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ibm-cci_particles .ibm-cci_particles-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/***** IBM Parallax effect*/
+
+.ibm-parallax-scroll {
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -40px 50px !important;
+}
+
+.why-ibm {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: -40px -170px;
+}
+
+.ibm-background-teal-30 {
+    background-color: #41d6c3;
+}
+
+
+/**** IBM Featured tiles*/
+
+.featured-tiles {
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+.ibm-background-white-core {
+    background-color: #fff !important;
+}
+
+.ibm-band {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+}
+
+.ibm-padding-top-r1 {
+    padding-top: 2vw !important;
+}
+
+.co_wrapper_tile {
+    align-content: flex-start;
+    width: 50%;
+    min-width: 25%;
+    min-height: calc 75vw;
+    float: left;
+}
+
+.co_wrapper_personalization,
+.co_wrapper_personalization,
+.co_wrapper_cover,
+.co_wrapper_tile {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ccc;
+}
+
+.featured-tiles .featured-content {
+    position: relative;
+    color: #fff;
+}
+
+div[class*='co_tile_1'] {
+    flex: 1 0 100%;
+    height: calc(50vw * .75);
+}
+
+div[class*='co_tile_'] {
+    outline: 1px solid #fff;
+}
+
+.bg-image-cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.featured-tiles .tile-cat {
+    padding: 30px 30px 0;
+}
+
+.ibm-type .ibm-light {
+    /*font-family: "HelvLightIBM","Helvetica Neue",Arial,sans-serif;*/
+}
+
+.ibm-small {
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+
+.ibm-light {
+    font-weight: normal;
+}
+
+.featured-tiles .featured-content .tile-content-bottom {
+    padding: 0 1rem 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+a[class*='-link'].ibm-inlinelink {
+    padding-left: 1.7em;
+}
+
+ul.ibm-link-list a, .ibm-ind-link a, .ibm-icononly a, .ibm-icononly span, a[class*='-link'].ibm-inlinelink {
+    display: inline-block;
+    margin: 0;
+    padding-left: 2.1em;
+    position: relative;
+}
+
+.ibm-textcolor-white-core {
+    color: #fff;
+}
+
+.ibm-h2 {
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+}
+
+.ibm-h1 {
+    font-size: 2.5rem;
+    line-height: 2.8125rem;
+}
+
+.featured-tiles .tile-sm {
+    position: relative;
+}
+
+.co_tile_2, .co_tile_3, .co_tile_4, .co_tile_5, .co_tile_6, .co_tile_7, .co_tile_8, .co_tile_9 {
+    flex: 1 0 50%;
+    height: calc(25vw * .75);
+}
+
+.ibm-background-blue-20 {
+    background-color: #7cc7ff;
+}
+
+.ibm-background-blue-40 {
+    background-color: #5596e6;
+}
+
+.ibm-background-blue-50 {
+    background-color: #4178be;
+}
+
+.ibm-background-blue-30 {
+    background-color: #5aaafa;
+}
+
+.featured-tiles .tile-sm .tile-content-bottom {
+    position: absolute;
+    bottom: 30px;
+    padding: 0 30px;
+}
+
+.ibm-bullet::before, .ibm-close::before {
+    display: inline-block;
+    font-family: "icons-ibm-v9";
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    left: -1px;
+    position: absolute;
+    text-decoration: none;
+    speak: none;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.img-tile {
+    height: 6rem;
+    padding: 0;
+    margin-left: -2rem;
+}
+
+
+
+
+
+/**** IBM blockquote List*/
+
+[class*='ibm-col-'] {
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    min-height: 1px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.ibm-columns .ibm-columns {
+    margin: 0 -10px;
+    padding: 0;
+    width: auto;
+}
+
+.ibm-columns {
+    clear: both;
+    margin: 0 auto;
+    width: 70rem;
+    padding: 0 10px 10px;
+}
+
+
+@media only screen and (max-width: 1479px) and (min-width: 1240px) {
+    .ibm-col-6-5 {
+        width: 1000px;
+    }
+}
+
+.ibm-col-6-5 {
+    width: 780px;
+}
+
+.ibm-center-block {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.link-list-horiz {
+    border-bottom: 1px solid #ccc;
+    transition: all 0.2s ease;
+}
+
+    .link-list-horiz .ibm-mo {
+        padding: 10px 0;
+    }
+
+.ibm-mo {
+    display: table;
+    width: 100%;
+}
+
+
+.link-list-horiz .ibm-mo__image {
+    vertical-align: middle;
+}
+
+.ibm-mo--top .ibm-mo__image, .ibm-mo--top .ibm-mo__body {
+    vertical-align: top;
+}
+
+.ibm-mo__image {
+    padding: .33rem 1rem .33rem 1rem;
+    width: 7rem;
+}
+
+.ibm-mo__image, .ibm-mo__body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.link-list-horiz .svg {
+    width: 60px;
+    height: 60px;
+}
+
+/*.link-list-horiz .svg path {
+    fill: #6699ff !important;
+}*/
+
+.link-list-horiz .svg path {
+    fill: #5a748c !important;
+}
+
+.ibm-columns::after {
+    clear: both;
+    content: ' ';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.link-list-horiz .blue-alt-10:hover {
+    color: #fff !important;
+    background-color: #6699ff !important;
+}
+
+    .link-list-horiz .blue-alt-10:hover .ibm-inlinelink,
+    .link-list-horiz .blue-alt-10:hover span,
+    .link-list-horiz .blue-alt-10:hover .svg,
+    .link-list-horiz .blue-alt-10:hover p.ibm-light,
+    .link-list-horiz .blue-alt-10:hover a,
+    .link-list-horiz .blue-alt-10:hover .textcolor-blue-alt-10 {
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+
+        .link-list-horiz .blue-alt-10:hover .ibm-inlinelink path,
+        .link-list-horiz .blue-alt-10:hover span path,
+        .link-list-horiz .blue-alt-10:hover .svg path,
+        .link-list-horiz .blue-alt-10:hover p.ibm-light path,
+        .link-list-horiz .blue-alt-10:hover a path,
+        .link-list-horiz .blue-alt-10:hover .textcolor-blue-alt-10 path {
+            fill: #fff !important;
+        }
+
+.anchor-el:hover {
+    cursor: pointer;
+}
+
+.textcolor-blue-alt-10 {
+    color: #6699ff;
+}
+
+/*html|* > svg {
+    transform-origin: 50% 50% 0px;
+}
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}*/
+
+/**** IBM Blocks*/
+
+.ibm-blocklink {
+    border: 1px solid transparent;
+    color: inherit;
+    display: block;
+    transition: border .2s,background .2s,color .2s;
+}
+
+.ibm-card.ibm-card--noborder {
+    border: 0;
+}
+
+.ibm-card {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    box-sizing: border-box;
+    margin-bottom: .5rem;
+    position: relative;
+}
+
+.ibm-padding-top-1 {
+    padding-top: 20px !important;
+}
+
+.ibm-resize {
+    height: auto !important;
+    width: 100%;
+    padding: 0 .7rem;
+}
+
+.ibm-card__heading, .ibm-card__content {
+    padding: 10px;
+}
+
+.ibm-center {
+    text-align: center;
+}
+
+.ibm-padding-bottom-2 {
+    padding-bottom: 40px !important;
+}
+
+.ibm-textcolor-teal-50 {
+    color: #008571;
+}
+
+.ibm-blocklink:visited {
+    color: inherit;
+}
+
+
+@media only screen and (max-width: 1479px) and (min-width: 1240px) {
+    .ibm-col-6-2 {
+        width: 400px;
+    }
+}
+
+.ibm-col-6-2 {
+    width: 300px;
+}
+
+
+/***** IBM Align Items*/
+
+.iot-homepage-section {
+    height: 570px;
+    background-size: auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.ibm-nospacing {
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+.ibm-col-4-2, .ibm-col-2-1, .ibm-col-6-3 {
+    width: 460px;
+}
+
+[class*=ibm-col-].iot-right-edge {
+    padding-left: 50px;
+}
+
+[class*=ibm-col-].iot-right-edge,
+[class*=ibm-col-].iot-left-edge {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    overflow: visible;
+    height: 100%;
+}
+
+.ibm-background-gray-10 {
+    background-color: #E0E0E0 !important;
+}
+
+.ibm-max-height-100 {
+    max-height: 100%;
+}
+
+.ibm-align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -ms-grid-row-align: center !important;
+    align-items: center !important;
+}
+
+
+[class*=-border-]:not(.ibm-border-box) {
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.animated-colors {
+    -webkit-transition-property: color, background-color, border-color !important;
+    transition-property: color, background-color, border-color !important;
+    -webkit-transition-duration: .3s !important;
+    transition-duration: .3s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.ibm-border-width-0 {
+    border-width: 0px;
+}
+
+[class*=-hover] {
+    cursor: pointer;
+}
+
+.ibm-textcolor-blue-60 {
+    color: #325C80 !important;
+}
+
+.ibm-padding-right-15 {
+    padding-right: 15px !important;
+}
+
+.ibm-padding-left-15 {
+    padding-left: 15px !important;
+}
+
+.ibm-card > a:not(.ibm-blocklink),
+.ibm-card .ibm-card a.iot-blocklink {
+    text-decoration: none;
+    color: inherit;
+    height: 100% !important;
+    display: block;
+}
+
+[class*=animated] *:not([class*=animated]) {
+    transition: none !important;
+}
+
+.ibm-padding-left-0 {
+    padding-left: 0px !important;
+}
+
+.ibm-h4.iot-override {
+    line-height: 1.875rem;
+    margin: .4rem;
+}
+
+.ibm-h4 {
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+}
+
+[class*=ibm-col-].iot-right-edge.edge-fix:after {
+    left: calc(100% - 1px);
+}
+
+[class*=ibm-col-].iot-right-edge:after {
+    left: 100%;
+}
+
+[class*=ibm-col-].iot-right-edge:after,
+[class*=ibm-col-].iot-left-edge:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    background-color: inherit;
+    height: 100%;
+    width: 100vw;
+    z-index: -5;
+    display: block;
+}
+
+.ibm-padding-bottom-50 {
+    padding-bottom: 50px !important;
+}
+
+
+.ibm-button-link.ibm-btn-row {
+    padding-bottom: 0;
+}
+
+.ibm-padding-top-30 {
+    padding-top: 30px !important;
+}
+
+.ibm-btn-row {
+    padding: 0;
+}
+
+.ibm-button-link {
+    padding-bottom: 8px;
+}
+
+    .ibm-button-link a[class*='ibm-btn-'][class*='-btn'] {
+        display: inline-block;
+    }
+
+.ibm-btn-row [class*="-btn"]:not([class*="-link"]) {
+    padding-top: 9px;
+}
+
+.ibm-btn-pri.ibm-btn-sec:visited, .ibm-btn-sec.ibm-btn-sec:visited {
+    color: #323232;
+}
+
+.ibm-btn-row input:last-child,
+.ibm-btn-row button:last-child,
+.ibm-btn-row a:last-child {
+    margin-right: 0;
+}
+
+.ibm-button-link.ibm-btn-row a {
+    margin-bottom: 20px;
+}
+
+.ibm-btn-pri.ibm-btn-sec, .ibm-btn-sec.ibm-btn-sec {
+    background-color: transparent;
+    color: #323232;
+    border-color: #323232;
+}
+
+.ibm-btn-pri:visited,
+.ibm-btn-sec:visited {
+    color: #fff;
+}
+
+.ibm-btn-row input,
+.ibm-btn-row button,
+.ibm-btn-row a {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+}
+
+.ibm-button-link a {
+    margin-bottom: 8px;
+}
+
+.ibm-btn-pri, .ibm-btn-sec {
+    border: 2px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 100%;
+    min-width: 120px;
+    min-width: 90px\9;
+    min-height: 20px;
+    padding: 11px 18px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: border .3s,color .3s,background-color .3s;
+    -moz-transition: border .3s,color .3s,background-color .3s;
+    -o-transition: border .3s,color .3s,background-color .3s;
+    -ms-transition: border .3s,color .3s,background-color .3s;
+    transition: border .3s,color .3s,background-color .3s;
+    white-space: normal;
+}
+
+.ibm-background-hover-teal-40:hover {
+    background-color: #00B4A0 !important;
+}
+
+.ibm-textcolor-hover-white-core:hover,
+.ibm-textcolor-hover-white-core:hover * {
+    color: #FFFFFF !important;
+}
+
+.ibm-flex-direction-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+/***** IBM SEARCH MODULE*/
+
+.ibm-masthead-rightside #ibm-search-module {
+    float: left;
+    height: 30px;
+    min-width: 30px;
+    position: relative;
+}
+
+#ibm-search-module {
+    box-sizing: border-box;
+    float: right;
+    position: relative;
+    padding: 0;
+    background-color: white;
+    height: 2rem;
+}
+
+#ibm-masthead .ibm-masthead-search-close {
+    background: #fff;
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    -webkit-transform: translate3d(-200%,0,0);
+    -moz-transform: translate3d(-200%,0,0);
+    -o-transform: translate3d(-200%,0,0);
+    -ms-transform: translate3d(-200%,0,0);
+    transform: translate3d(-200%,0,0);
+    width: 50px;
+    z-index: 2;
+}
+
+    #ibm-masthead .ibm-masthead-search-close a {
+        height: 30px;
+        line-height: 30px;
+        width: 40px;
+    }
+
+.ibm-icononly span:last-child, .ibm-icononly a[class*='-link']:last-child {
+    margin-right: 0;
+}
+
+.ibm-icononly span, .ibm-icononly a[class*='-link'] {
+    display: block;
+    float: left;
+    height: 1.75em;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    overflow: hidden;
+    padding: 3px 0;
+    text-indent: 100px;
+    width: 1.5em;
+}
+
+#ibm-search-form p {
+    padding: 0;
+    margin: 0;
+}
+
+    #ibm-search-form p label {
+        display: none;
+    }
+
+#q {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    /*border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;*/
+    box-sizing: border-box;
+    color: rgba(16, 32, 67, 0.6);
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    padding-right: 43px;
+    position: relative;
+    text-indent: 10px;
+    top: 0;
+    width: 12rem;
+}
+
+    #q:hover, #q:focus {
+        box-shadow: 0 0 2px 2px #4178be;
+    }
+
+#ibm-search:hover, #ibm-search:focus {
+    box-shadow: 0 0 2px 2px #4178be;
+}
+
+#ibm-search.ibm-search-link:before {
+    text-indent: 11px;
+}
+
+.ibm-access {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+}
+
+#ibm-search.ibm-search-link {
+    font-size: .875rem;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    overflow: hidden;
+    right: 15px;
+    top: 0;
+    width: 43px;
+}
+
+#ibm-search {
+    background: url(//1.www.s81c.com/common/v18/i/search.svg) no-repeat 100% 50% transparent;
+    background-size: 20px;
+    border: 0 none;
+    height: 20px;
+    line-height: 0;
+    min-width: 20px;
+    outline: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    text-indent: 99px;
+    top: 15px;
+    width: 20px;
+}
+
+
+
+
+img.icon-iot {
+    width: 6rem !important;
+    padding: 5px;
+    margin-right: 1rem ;
+}
+
+img.icon-menu {
+    width: 2rem !important;
+    margin-right: 0.3rem;
+    margin-left: -0.3rem;
+}
+
+
+.nav > li > a:focus, 
+.nav > li > a:hover {
+    background-color: transparent;
+}
+
+.navbar-nav > li > a {
+     padding-top: 5px; 
+     padding-bottom: 5px; 
+}
